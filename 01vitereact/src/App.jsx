@@ -1,6 +1,7 @@
 import Chai from "./Chai";
 
 function App() {
+  let name = "Muhammad Umair Abbasi"
   return (
     <>
       <h1
@@ -10,7 +11,7 @@ function App() {
           color: "blue",
         }}
       >
-        Umair Abbasi
+    {name}
       </h1>
       
       <Chai />
