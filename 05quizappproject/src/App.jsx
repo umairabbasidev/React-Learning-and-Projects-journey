@@ -1,10 +1,11 @@
-import NavBar from "./components/NavBar";
-
+import NavBar from "./components/NavHeroSection";
 
 function App() {
-  return <>
-  <NavBar/>
-  </>
+  return (
+    <>
+      <NavBar />
+    </>
+  );
 }
 
 export default App;
